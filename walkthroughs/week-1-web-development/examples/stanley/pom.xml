@@ -31,6 +31,9 @@
         <groupId>com.google.appengine</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
         <version>1.9.71</version>
+        <configuration>
+          <address>0.0.0.0</address>
+        </configuration>
       </plugin>
     </plugins>
   </build>
